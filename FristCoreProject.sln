@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FristCoreProject", "FristCoreProject\FristCoreProject.csproj", "{324B70D2-BD6B-41AA-B080-759634231639}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FristCoreProject", "FristCoreProject\FristCoreProject.csproj", "{324B70D2-BD6B-41AA-B080-759634231639}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CastleWindsor", "CastleWindsor\CastleWindsor.csproj", "{074C3E7E-5F2C-4216-801C-D2898DA7E17E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutofacProject", "AutofacProject\AutofacProject.csproj", "{DE4AFEC0-F195-4C60-A6AC-5978D45BB4CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{324B70D2-BD6B-41AA-B080-759634231639}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{324B70D2-BD6B-41AA-B080-759634231639}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{324B70D2-BD6B-41AA-B080-759634231639}.Release|Any CPU.Build.0 = Release|Any CPU
+		{074C3E7E-5F2C-4216-801C-D2898DA7E17E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{074C3E7E-5F2C-4216-801C-D2898DA7E17E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{074C3E7E-5F2C-4216-801C-D2898DA7E17E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{074C3E7E-5F2C-4216-801C-D2898DA7E17E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE4AFEC0-F195-4C60-A6AC-5978D45BB4CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE4AFEC0-F195-4C60-A6AC-5978D45BB4CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE4AFEC0-F195-4C60-A6AC-5978D45BB4CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE4AFEC0-F195-4C60-A6AC-5978D45BB4CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
