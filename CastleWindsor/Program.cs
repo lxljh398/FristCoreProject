@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using Castle.MicroKernel.Registration;
 using Castle.Windsor;
 
@@ -25,18 +26,41 @@ namespace CastleWindsor
             //var shh = _container.Resolve<Fun.SHHello>();
             //shh.SayHello("shh");
 
-            _container.Register(Component.For<IShhHello>().ImplementedBy<Fun.SHHello>(), Component.For<IHZHello>().ImplementedBy<Fun.HangzhouHello>(), Component.For<IBJHello>().ImplementedBy<Fun.BeijingHello>());
 
 
-            var hz = _container.Resolve<IHZHello>();
-            hz.SayHello("hz");
 
-            var bj = _container.Resolve<IBJHello>();
-            bj.SayHello("bj");
 
-            var shh = _container.Resolve<IShhHello>();
-            shh.SayHello("shh");
+            //_container.Register(Component.For<IShhHello>().ImplementedBy<Fun.SHHello>(), Component.For<IHZHello>().ImplementedBy<Fun.HangzhouHello>(), Component.For<IBJHello>().ImplementedBy<Fun.BeijingHello>());
+
+
+            //var hz = _container.Resolve<IHZHello>();
+            //hz.SayHello("hz");
+
+            //var bj = _container.Resolve<IBJHello>();
+            //bj.SayHello("bj");
+
+            //var shh = _container.Resolve<IShhHello>();
+            //shh.SayHello("shh");
+            //Console.ReadKey();
+
+            var a = Power(2, 8);
+            foreach (int i in Power(2, 8))
+            {
+                Console.Write("{0} ", i);
+            }
             Console.ReadKey();
+        }
+
+        public static IEnumerable Power(int number, int exponent)
+        {
+            int result = 1;
+            for (int i = 0; i < exponent; i++)
+            {
+                result = result * number;
+                yield return result;
+            }
+            yield return 3;
+            yield return 4;
         }
     }
 }
