@@ -23,15 +23,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JieBa", "JieBa\JieBa.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityTest", "IdentityTest\IdentityTest.csproj", "{DBC38B12-6D7E-4CA7-9FC3-F46B5F56CC8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityS4", "IdentityS4\IdentityS4.csproj", "{5CF940F6-414C-4EA8-9798-E7FA663B16F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityS4", "IdentityS4\IdentityS4.csproj", "{5CF940F6-414C-4EA8-9798-E7FA663B16F2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity4", "Identity4", "{CFC2785B-A339-4D27-B21E-28C308C5CE0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcClient", "MvcClient\MvcClient.csproj", "{7F339730-0613-4E66-8D8B-9422E6643906}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcClient", "MvcClient\MvcClient.csproj", "{7F339730-0613-4E66-8D8B-9422E6643906}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcClient2", "MvcClient2\MvcClient2.csproj", "{556070F5-7213-4C19-BD3E-826E57B3E6CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DockerNetCoreTest", "DockerNetCoreTest\DockerNetCoreTest.csproj", "{FADF6EC7-F50A-4DD2-894D-474BE34B1A50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DockerNetCoreTest", "DockerNetCoreTest\DockerNetCoreTest.csproj", "{FADF6EC7-F50A-4DD2-894D-474BE34B1A50}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MySqlCodeFrist", "MySqlCodeFrist\MySqlCodeFrist.csproj", "{9C6A4F56-8DE6-443F-9785-B10AC3BD5CCA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MySqlCodeFristConsole", "MySqlCodeFristConsole\MySqlCodeFristConsole.csproj", "{95C4AEBE-E985-4B96-BE7E-E039F0B720D1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MLNetTest", "MLNetTest\MLNetTest.csproj", "{68E71377-DE29-48D0-9658-58498F1C204D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Temporary", "Temporary\Temporary.csproj", "{D7C671E2-E283-49B4-80A9-1DC52E2CBA8E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -95,6 +103,22 @@ Global
 		{FADF6EC7-F50A-4DD2-894D-474BE34B1A50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FADF6EC7-F50A-4DD2-894D-474BE34B1A50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FADF6EC7-F50A-4DD2-894D-474BE34B1A50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C6A4F56-8DE6-443F-9785-B10AC3BD5CCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C6A4F56-8DE6-443F-9785-B10AC3BD5CCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C6A4F56-8DE6-443F-9785-B10AC3BD5CCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C6A4F56-8DE6-443F-9785-B10AC3BD5CCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95C4AEBE-E985-4B96-BE7E-E039F0B720D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95C4AEBE-E985-4B96-BE7E-E039F0B720D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95C4AEBE-E985-4B96-BE7E-E039F0B720D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95C4AEBE-E985-4B96-BE7E-E039F0B720D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68E71377-DE29-48D0-9658-58498F1C204D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68E71377-DE29-48D0-9658-58498F1C204D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68E71377-DE29-48D0-9658-58498F1C204D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68E71377-DE29-48D0-9658-58498F1C204D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7C671E2-E283-49B4-80A9-1DC52E2CBA8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7C671E2-E283-49B4-80A9-1DC52E2CBA8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7C671E2-E283-49B4-80A9-1DC52E2CBA8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7C671E2-E283-49B4-80A9-1DC52E2CBA8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections;
+using System.Collections.Generic;
+using System.Threading;
 using Castle.MicroKernel.Registration;
 using Castle.Windsor;
 
@@ -43,11 +45,30 @@ namespace CastleWindsor
             //shh.SayHello("shh");
             //Console.ReadKey();
 
-            var a = Power(2, 8);
-            foreach (int i in Power(2, 8))
-            {
-                Console.Write("{0} ", i);
-            }
+            //var a = Power(2, 8);
+            //foreach (int i in Power(2, 8))
+            //{
+            //    Console.Write("{0} ", i);
+            //}
+            //Console.ReadKey();
+
+
+
+
+
+
+            //int[] items = { 5, 10, 12, 11, 15, 20, 22 };
+            //foreach (var item in items)
+            //{
+            //    new Thread(new ThreadStart(delegate () {
+            //        Thread.Sleep(item);
+            //        Console.WriteLine(item);
+            //    })).Start();
+            //}
+
+            string[] s = { "1","2","3"};
+            List<string> lst = new List<string>(s);
+
             Console.ReadKey();
         }
 
