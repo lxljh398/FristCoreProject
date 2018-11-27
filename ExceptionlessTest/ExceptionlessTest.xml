@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ExceptionlessTest</name>
+    </assembly>
+    <members>
+        <member name="T:ExceptionlessTest.Controllers.SwaggerController">
+            <summary>
+            SwaggerAPI测试
+            </summary>
+        </member>
+        <member name="M:ExceptionlessTest.Controllers.SwaggerController.Get">
+            <summary>
+            获取方法
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ExceptionlessTest.Controllers.SwaggerController.Get(System.Int32)">
+            <summary>
+            通过ID获取
+            </summary>
+            <param name="id">ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:ExceptionlessTest.Controllers.SwaggerController.Post(System.String)">
+            <summary>
+            POST方法
+            </summary>
+            <param name="value">值</param>
+        </member>
+        <member name="M:ExceptionlessTest.Controllers.SwaggerController.Put(System.Int32,System.String)">
+            <summary>
+            修改
+            </summary>
+            <param name="id">ID</param>
+            <param name="value">值</param>
+        </member>
+        <member name="M:ExceptionlessTest.Controllers.SwaggerController.Delete(System.Int32)">
+            <summary>
+            删除
+            </summary>
+            <param name="id">ID</param>
+        </member>
+        <member name="T:ExceptionlessTest.DtoInput">
+            <summary>
+            Dto
+            </summary>
+        </member>
+        <member name="P:ExceptionlessTest.DtoInput.ID">
+            <summary>
+            ID
+            </summary>
+        </member>
+        <member name="P:ExceptionlessTest.DtoInput.PageIndex">
+            <summary>
+            PageIndex
+            </summary>
+        </member>
+        <member name="P:ExceptionlessTest.DtoInput.PageSize">
+            <summary>
+            PageSize
+            </summary>
+        </member>
+        <member name="T:ExceptionlessTest.DtoOutput">
+            <summary>
+            输出
+            </summary>
+        </member>
+        <member name="P:ExceptionlessTest.DtoOutput.ID">
+            <summary>
+            ID
+            </summary>
+        </member>
+        <member name="P:ExceptionlessTest.DtoOutput.Name">
+            <summary>
+            班级名称
+            </summary>
+        </member>
+        <member name="P:ExceptionlessTest.DtoOutput.Stus">
+            <summary>
+            学生集合
+            </summary>
+        </member>
+        <member name="T:ExceptionlessTest.DtoOutput.Stu">
+            <summary>
+            学生
+            </summary>
+        </member>
+        <member name="P:ExceptionlessTest.DtoOutput.Stu.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:ExceptionlessTest.DtoOutput.Stu.Age">
+            <summary>
+            年龄
+            </summary>
+        </member>
+    </members>
+</doc>

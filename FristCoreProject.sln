@@ -39,7 +39,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MySqlCodeFristConsole", "My
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MLNetTest", "MLNetTest\MLNetTest.csproj", "{68E71377-DE29-48D0-9658-58498F1C204D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Temporary", "Temporary\Temporary.csproj", "{D7C671E2-E283-49B4-80A9-1DC52E2CBA8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Temporary", "Temporary\Temporary.csproj", "{D7C671E2-E283-49B4-80A9-1DC52E2CBA8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionlessTest", "ExceptionlessTest\ExceptionlessTest.csproj", "{AF6BCC8C-0A73-4502-B185-15B99B84F38B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -119,6 +121,10 @@ Global
 		{D7C671E2-E283-49B4-80A9-1DC52E2CBA8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7C671E2-E283-49B4-80A9-1DC52E2CBA8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7C671E2-E283-49B4-80A9-1DC52E2CBA8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF6BCC8C-0A73-4502-B185-15B99B84F38B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF6BCC8C-0A73-4502-B185-15B99B84F38B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF6BCC8C-0A73-4502-B185-15B99B84F38B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF6BCC8C-0A73-4502-B185-15B99B84F38B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
