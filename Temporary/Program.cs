@@ -50,12 +50,15 @@ namespace Temporary
             //Console.WriteLine(ret(0, 3));
 
 
-            WeekDays wds = WeekDays.Monday | WeekDays.Tuesday | WeekDays.Sunday;
-            wds = wds & (~WeekDays.Monday);
-            Console.WriteLine(wds);
-            wds = wds | WeekDays.Monday;
-            Console.WriteLine(wds);
+            //WeekDays wds = WeekDays.Monday | WeekDays.Tuesday | WeekDays.Sunday;
+            //wds = wds & (~WeekDays.Monday);
+            //Console.WriteLine(wds);
+            //wds = wds | WeekDays.Monday;
+            //Console.WriteLine(wds);
 
+
+            int i = 1;
+            Console.WriteLine("0x{0:x}", i << 33);
             Console.ReadLine();
         }
 
