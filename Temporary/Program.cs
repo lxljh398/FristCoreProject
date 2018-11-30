@@ -57,8 +57,10 @@ namespace Temporary
             //Console.WriteLine(wds);
 
 
-            int i = 1;
-            Console.WriteLine("0x{0:x}", i << 33);
+            //int i = 1;
+            //Console.WriteLine("0x{0:x}", i << 33);
+            string selectConditionsSql = "OR (bul.Floors> 1 AND bul.StoreyHeightL < 6) OR (bul.Floors> 1 AND bul.StoreyHeightL >= 6) OR (bul.Floors = 1 AND bul.StoreyHeightL < 6)";
+            int index = selectConditionsSql.IndexOf("OR", 5);
             Console.ReadLine();
         }
 
@@ -104,6 +106,25 @@ namespace Temporary
             Friday = 0x10,
             Saturday = 0x20,
             Sunday = 0x40
+        }
+
+        public class Test<T>
+        {
+            T[] obj = new T[5];
+            int count = 0;
+            public void Add(T t)
+            {
+                if (count + 1 < 6)
+                {
+                    obj[count] = t;
+                }
+            }
+
+            public T this[int index]
+            {
+                get { return obj[index]; }
+                set { obj[index] = value; }
+            }
         }
     }
 }
