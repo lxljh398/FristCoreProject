@@ -59,8 +59,20 @@ namespace Temporary
 
             //int i = 1;
             //Console.WriteLine("0x{0:x}", i << 33);
-            string selectConditionsSql = "OR (bul.Floors> 1 AND bul.StoreyHeightL < 6) OR (bul.Floors> 1 AND bul.StoreyHeightL >= 6) OR (bul.Floors = 1 AND bul.StoreyHeightL < 6)";
-            int index = selectConditionsSql.IndexOf("OR", 5);
+            //string selectConditionsSql = "OR (bul.Floors> 1 AND bul.StoreyHeightL < 6) OR (bul.Floors> 1 AND bul.StoreyHeightL >= 6) OR (bul.Floors = 1 AND bul.StoreyHeightL < 6)";
+            //int index = selectConditionsSql.IndexOf("OR", 5);
+
+
+            D d = null;
+            if (d?.Age > 0)
+            {
+                Console.WriteLine("E");
+            }
+            else
+            {
+                Console.WriteLine(d.Name);
+            }
+
             Console.ReadLine();
         }
 
