@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2026
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28315.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CastleWindsor", "CastleWindsor\CastleWindsor.csproj", "{074C3E7E-5F2C-4216-801C-D2898DA7E17E}"
 EndProject
@@ -41,7 +41,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MLNetTest", "MLNetTest\MLNe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Temporary", "Temporary\Temporary.csproj", "{D7C671E2-E283-49B4-80A9-1DC52E2CBA8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionlessTest", "ExceptionlessTest\ExceptionlessTest.csproj", "{AF6BCC8C-0A73-4502-B185-15B99B84F38B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExceptionlessTest", "ExceptionlessTest\ExceptionlessTest.csproj", "{AF6BCC8C-0A73-4502-B185-15B99B84F38B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
