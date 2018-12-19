@@ -50,11 +50,12 @@ namespace Temporary
             //Console.WriteLine(ret(0, 3));
 
 
-            //WeekDays wds = WeekDays.Monday | WeekDays.Tuesday | WeekDays.Sunday;
+            WeekDays wds = WeekDays.Monday | WeekDays.Tuesday | WeekDays.Sunday;
             //wds = wds & (~WeekDays.Monday);
-            //Console.WriteLine(wds);
-            //wds = wds | WeekDays.Monday;
-            //Console.WriteLine(wds);
+            wds = wds ^ WeekDays.Monday;
+            Console.WriteLine(wds);
+            wds = wds | WeekDays.Monday;
+            Console.WriteLine(wds);
 
 
             //int i = 1;
@@ -63,23 +64,53 @@ namespace Temporary
             //int index = selectConditionsSql.IndexOf("OR", 5);
 
 
-            D d = null;
-            if (d?.Age > 0)
-            {
-                Console.WriteLine("E");
-            }
-            else
-            {
-                Console.WriteLine(d.Name);
-            }
+            //D d = null;
+            //int a = d.Age ?? 0;
+            //if (d?.Age > 0)
+            //{
+            //    Console.WriteLine("E");
+            //}
+            //else
+            //{
+            //    Console.WriteLine(d.Name);
+            //}
+
+
+            //bool b1 = false;
+            //bool b2 = true;
+            //bool b3 = b2 || b1;
+            //bool b4 = b2 | b1;
+
+            //Console.WriteLine(b3);
+            //Console.WriteLine(b4);
 
             Console.ReadLine();
         }
 
         public static int ret(int inputState, int dataState)
         {
-            int state = 1 | 2 | 3;
-            if ((inputState & state) != 0 && (dataState & state) != 0)
+            int state = 10;
+            if ((state & 3) != 0)
+            {
+
+            }
+            if ((state & 4) != 0)
+            {
+
+            }
+            if ((state & 1) != 0)
+            {
+
+            }
+            if ((state & 8) != 0)
+            {
+
+            }
+            if ((state & 2) != 0)
+            {
+
+            }
+            if ((state & inputState) != 0 && (state & dataState) != 0)
             {
                 if (dataState == 3 || (inputState + dataState) == 3)
                 {
@@ -94,6 +125,8 @@ namespace Temporary
             {
                 dataState = inputState;
             }
+
+
             return dataState;
         }
 
