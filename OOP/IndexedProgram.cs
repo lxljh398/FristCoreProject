@@ -2,7 +2,7 @@
 
 namespace OOP
 {
-    class Program
+    class IndexedProgram
     {
         static void Main(string[] args)
         {
