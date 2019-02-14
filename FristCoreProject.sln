@@ -55,9 +55,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entrust", "Entrust\Entrust.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SyntacticSugar", "SyntacticSugar\SyntacticSugar.csproj", "{E983AB19-ED59-4740-BD13-A7FFC0363CD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitmqSend", "RabbitmqSend\RabbitmqSend.csproj", "{193978DA-10C9-409B-A13C-0E800C0503AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitmqSend", "RabbitmqSend\RabbitmqSend.csproj", "{193978DA-10C9-409B-A13C-0E800C0503AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitmqReceive", "RabbitmqReceive\RabbitmqReceive.csproj", "{2C33F9F2-0BFC-47E8-9AF9-36A6120E04B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitmqReceive", "RabbitmqReceive\RabbitmqReceive.csproj", "{2C33F9F2-0BFC-47E8-9AF9-36A6120E04B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
