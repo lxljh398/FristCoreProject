@@ -42,20 +42,111 @@ namespace Extend
             //Console.ReadLine();
 
 
-            for (int a = 0; a <= 9; a++)
-            {
-                for (int b = 0; b <= 9; b++)
-                {
-                    if ((120569 + a * 1000) * 123 == 15404987 + b * 10000)
-                    {
-                        Console.WriteLine(a);
-                        Console.WriteLine(b);
-                    }
-                }
-            }
+            //for (int a = 0; a <= 9; a++)
+            //{
+            //    for (int b = 0; b <= 9; b++)
+            //    {
+            //        if ((120569 + a * 1000) * 123 == 15404987 + b * 10000)
+            //        {
+            //            Console.WriteLine(a);
+            //            Console.WriteLine(b);
+            //        }
+            //    }
+            //}
+            //Console.ReadLine();
+
+            //string s = "I am a good man";
+            //var a = s.Split(' ');
+            //for (int i = a.Length - 1; i >= 0; i--)
+            //{
+            //    Console.WriteLine(a[i]);
+            //}
+
+
+            //string t = string.Empty;
+            //for (int i = 1; i < 10; i++)
+            //{
+            //    for (int j = 1; j <= i; j++)
+            //    {
+            //        Console.Write($"{j}*{i}={j * i}");
+            //        if (i == j)
+            //            Console.Write("\n");
+            //    }
+            //}
+
+
+            //int[] a = { 2, 1, 5, 10, 9 };
+            ////BubbleSorter.Sort(a);
+            ////foreach (int i in a)
+            ////{
+            ////    Console.WriteLine(i);
+            ////}
+            ////Console.Read();
+
+
+
+            //List<int> lst = new List<int>(a);
+            //lst.Sort();
+            //foreach (var item in lst)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            //int i = BubbleSorter.Add(3, 5);   //调用静态方法
+            //Console.WriteLine(i);
+
+            //int ii = BubbleSorter.Add(0, 0);   //调用静态方法
+            //Console.WriteLine(ii);
+
+            //int iii = BubbleSorter.Add(1, 5);   //调用静态方法
+            //Console.WriteLine(iii);
+
+
             Console.ReadLine();
         }
 
+
+
+
+        class BubbleSorter
+        {
+            public static int Add(int x, int y)
+            {
+                return x + y;
+            }
+
+            private static int[] myArray;
+            private static int arraySize;
+            public static void Sort(int[] a)
+            {
+                myArray = a;
+                arraySize = myArray.Length;
+                BubbleSort(myArray);
+            }
+
+            public static void BubbleSort(int[] myArray)
+            {
+                for (int i = 0; i < myArray.Length - 1; i++)   //由于数组的特点，从0开始，但myArray的长度为5，所以需要减1，实际进行了（0~3）4趟循环  
+                {
+                    for (int j = 0; j < myArray.Length - 1 - i; j++)  //内层循环的要点是相邻比较。当j=4的时候，就推出循环了  
+                    {
+                        if (myArray[j] > myArray[j + 1])
+                        {
+                            Swap(ref myArray[j], ref myArray[j + 1]);
+                        }
+                    }
+                }
+            }
+
+            private static void Swap(ref int left, ref int right)
+            {
+                int temp;
+                temp = left;
+                left = right;
+                right = temp;
+            }
+
+        }
 
         /// <summary>
         /// 打印一个用户信息
