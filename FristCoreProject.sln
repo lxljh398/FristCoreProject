@@ -63,6 +63,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extend", "Extend\Extend.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PollyTest", "PollyTest\PollyTest.csproj", "{9930AC18-F166-467F-BC86-B751152A0E31}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiebaAndLuncene", "JiebaAndLuncene\JiebaAndLuncene.csproj", "{5B081561-50D6-4494-8462-21586A415C9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AOP", "AOP\AOP.csproj", "{30B7D154-FCF5-4212-83D3-75E31D5EEB86}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -185,6 +189,14 @@ Global
 		{9930AC18-F166-467F-BC86-B751152A0E31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9930AC18-F166-467F-BC86-B751152A0E31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9930AC18-F166-467F-BC86-B751152A0E31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B081561-50D6-4494-8462-21586A415C9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B081561-50D6-4494-8462-21586A415C9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B081561-50D6-4494-8462-21586A415C9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B081561-50D6-4494-8462-21586A415C9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30B7D154-FCF5-4212-83D3-75E31D5EEB86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30B7D154-FCF5-4212-83D3-75E31D5EEB86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30B7D154-FCF5-4212-83D3-75E31D5EEB86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30B7D154-FCF5-4212-83D3-75E31D5EEB86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
