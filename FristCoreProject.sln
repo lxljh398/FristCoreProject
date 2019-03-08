@@ -67,9 +67,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JiebaAndLuncene", "JiebaAnd
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AOP", "AOP\AOP.csproj", "{30B7D154-FCF5-4212-83D3-75E31D5EEB86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangfire", "Hangfire\Hangfire.csproj", "{62BDDFFB-DC58-48EA-8455-D9A9D9A03674}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hangfire", "Hangfire\Hangfire.csproj", "{62BDDFFB-DC58-48EA-8455-D9A9D9A03674}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangfire1", "Hangfire1\Hangfire1.csproj", "{A646C0BA-7A0C-4F80-99E1-585A0A904223}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hangfire1", "Hangfire1\Hangfire1.csproj", "{A646C0BA-7A0C-4F80-99E1-585A0A904223}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructAndClass", "StructAndClass\StructAndClass.csproj", "{55A092A4-F2B1-4F98-8CFA-81C1A6A6958D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -209,6 +211,10 @@ Global
 		{A646C0BA-7A0C-4F80-99E1-585A0A904223}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A646C0BA-7A0C-4F80-99E1-585A0A904223}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A646C0BA-7A0C-4F80-99E1-585A0A904223}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55A092A4-F2B1-4F98-8CFA-81C1A6A6958D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55A092A4-F2B1-4F98-8CFA-81C1A6A6958D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55A092A4-F2B1-4F98-8CFA-81C1A6A6958D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55A092A4-F2B1-4F98-8CFA-81C1A6A6958D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
