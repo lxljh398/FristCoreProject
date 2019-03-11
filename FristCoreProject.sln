@@ -71,7 +71,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hangfire", "Hangfire\Hangfi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hangfire1", "Hangfire1\Hangfire1.csproj", "{A646C0BA-7A0C-4F80-99E1-585A0A904223}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructAndClass", "StructAndClass\StructAndClass.csproj", "{55A092A4-F2B1-4F98-8CFA-81C1A6A6958D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StructAndClass", "StructAndClass\StructAndClass.csproj", "{55A092A4-F2B1-4F98-8CFA-81C1A6A6958D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistrictTrans", "DistrictTrans\DistrictTrans.csproj", "{ECD7096C-E85C-4466-8AA4-E9DB9BFA9416}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -215,6 +217,10 @@ Global
 		{55A092A4-F2B1-4F98-8CFA-81C1A6A6958D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55A092A4-F2B1-4F98-8CFA-81C1A6A6958D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55A092A4-F2B1-4F98-8CFA-81C1A6A6958D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECD7096C-E85C-4466-8AA4-E9DB9BFA9416}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECD7096C-E85C-4466-8AA4-E9DB9BFA9416}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECD7096C-E85C-4466-8AA4-E9DB9BFA9416}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECD7096C-E85C-4466-8AA4-E9DB9BFA9416}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
