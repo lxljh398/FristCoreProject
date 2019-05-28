@@ -4,7 +4,7 @@ using System.Text.RegularExpressions;
 
 namespace Extend
 {
-    class Program
+    static class Program
     {
         static void Main(string[] args)
         {
@@ -101,12 +101,26 @@ namespace Extend
             //int iii = BubbleSorter.Add(1, 5);   //调用静态方法
             //Console.WriteLine(iii);
 
-
+            string strTest = "1.21";
+            var strRes = strTest.ExToInt();
+            Console.WriteLine(strRes);
             Console.ReadLine();
         }
 
 
+        public static int ExToInt(this string str)
+        {
+            int.TryParse(str, out int a);
+            return a;
+        }
 
+        public static string GetNotNullStr(this string strRes)
+        {
+            if (strRes == null)
+                return string.Empty;
+            else
+                return strRes;
+        }
 
         class BubbleSorter
         {
