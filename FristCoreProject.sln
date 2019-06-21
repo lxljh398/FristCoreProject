@@ -83,7 +83,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Event", "Event\Event.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegexDemo", "RegexDemo\RegexDemo.csproj", "{60EA2B06-A71C-4E03-8C90-A33500647825}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CombinationList", "CombinationList\CombinationList.csproj", "{859BC878-CB46-43B3-B918-1414AE3AFB2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CombinationList", "CombinationList\CombinationList.csproj", "{859BC878-CB46-43B3-B918-1414AE3AFB2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OVER_PARTITION_BY", "OVER_PARTITION_BY\OVER_PARTITION_BY.csproj", "{6563F183-F016-418B-8DA1-DE79E56E05A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -251,6 +253,10 @@ Global
 		{859BC878-CB46-43B3-B918-1414AE3AFB2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{859BC878-CB46-43B3-B918-1414AE3AFB2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{859BC878-CB46-43B3-B918-1414AE3AFB2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6563F183-F016-418B-8DA1-DE79E56E05A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6563F183-F016-418B-8DA1-DE79E56E05A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6563F183-F016-418B-8DA1-DE79E56E05A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6563F183-F016-418B-8DA1-DE79E56E05A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
