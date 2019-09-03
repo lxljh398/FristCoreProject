@@ -31,6 +31,21 @@ namespace OVER_PARTITION_BY
                     );
 
             var a = rnb.ToList();
+            //GetChick();
+        }
+
+        public static void GetChick()
+        {
+            for (int i = 0; i < 20; i++)
+            {
+                for (int j = 0; j < 33; j++)
+                {
+                    var a = 100 - i - j;
+                    if ((5 * i) + (3 * j) + (a / 3.0f) == 100)
+                        Console.WriteLine($"公鸡{i},母鸡{j}，小鸡{a}");
+                }
+            }
+            Console.ReadLine();
         }
     }
 }

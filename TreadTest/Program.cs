@@ -2,6 +2,9 @@
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Linq;
+using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -12,10 +15,94 @@ namespace TreadTest
         static void Main(string[] args)
         {
 
-            string s = null;
-            Console.WriteLine($"The first letter of {s} is {s[0]}");
+            //string s = null;
+            //Console.WriteLine("The first letter of {s} is {s[0]}");
 
             //Te();
+
+            //string str = "sdfsf13579890000,我们圣达菲18297980000天上地下";
+            //var ary = Regex.Matches(str, @"1[3-9]\d{9}").Cast<Match>().Select(t => t.Value).ToArray();
+
+            //string str = "提取123.11abc提取"; //我们抓取当前字符当中的123.11
+            //str = Regex.Replace(str, @"[\d.\d]", "");
+
+
+            //string s = "提取123abc提取";    //我们抓取当前字符当中的123
+            //string result = Regex.Replace(s, @"[0-9]-[0-9]+", "");
+
+
+            //string str = "hgfdhg范德萨0571-88888888发13735471883顺丰德萨0571 88888888发";
+            ////正则规则
+            //string strPatern = @"(1[3-9]\d{9}|\d{3}-\d{7}|\d{3} \d{7})";
+            //string strPaternPhone = @"(1[3-9]\d{9})";//手机
+            //string strPaternTel = @"(\d{3}-\d{7}|\d{3} \d{7})";//座机(匹配区号3/4位，号码7/8位的)
+
+            ////替换规则
+            //string convertPaternPhone = @"(\d{3})(\d{4})(\d{3})";
+            //string convertPaternTel = @"(\d{3})-(\d{4})(\d{3})|(\d{3}) (\d{4})(\d{3})";
+            ////替换符
+            //string replacement = "$1****$3";
+            ////正则赋值
+            //Regex regPhone = new Regex(strPaternPhone);
+            //Regex regTel = new Regex(strPaternTel);
+            //Regex reg = new Regex(strPatern);
+            //if (reg.IsMatch(str))
+            //{
+            //    if (regPhone.IsMatch(str))
+            //    {
+            //        str = Regex.Replace(str, convertPaternPhone, replacement);
+            //    }
+            //    if (regTel.IsMatch(str))
+            //    {
+            //        str = Regex.Replace(str, convertPaternTel, replacement);
+            //    }
+            //}
+
+            //Console.WriteLine(str);
+
+            //for (int i = 0; i < 10; i++)
+            //{
+            //    ThreadPool.QueueUserWorkItem(new WaitCallback((obj) =>
+            //        Console.WriteLine($"{obj}线程")
+            //    ),i);
+            //}
+
+
+            //Task task = Task.Run(() => {
+            //    Thread.Sleep(100);
+            //    Console.WriteLine($"hello, task3的线程ID为{ Thread.CurrentThread.ManagedThreadId}");
+            //});
+            //Console.WriteLine("执行主线程！");
+
+
+            //bool isStop = false;
+            //int index = 0;
+            //Thread t = new Thread(() => {
+            //    while (!isStop)
+            //    {
+            //        Thread.Sleep(500);
+            //        Console.WriteLine($"第{++index}次执行，线程运行中...");
+            //    }
+            //});
+            //t.Start();
+            //Thread.Sleep(3000);
+            //isStop = true;
+
+
+            CancellationTokenSource source = new CancellationTokenSource();
+            int index = 0;
+            Task t = new Task(()=> {
+                while (!source.IsCancellationRequested)
+                {
+                    Thread.Sleep(500);
+                    Console.WriteLine($"第{++index}次执行，线程运行中...");
+                }
+            });
+            t.Start();
+            Thread.Sleep(3000);
+            //source.Cancel();
+            source.CancelAfter(5000);
+
             Console.ReadLine();
         }
 
